@@ -1,16 +1,20 @@
-# peliculas_app
+# Movies App
 
-A new Flutter project.
+A Flutter mobile app that showcases current movies in theaters using TheMovieDB API.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This application showcases two main lists of movies: Current movies in theaters and trending movies. These movies are obtained by consuming REST services from TheMovieDB API.
 
-A few resources to get you started if this is your first Flutter project:
+Each movie can be accessed to display a new screen with its information, description and a casting list.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The app also implements a SearchDelegate that allows searching any movie from the database by its title.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Implemented packages
+
+Some of the most important packages used to build this app are:
+
+- http
+- provider
+- card_swiper
+
